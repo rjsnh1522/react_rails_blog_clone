@@ -1,9 +1,10 @@
 <h1>MyApp app</h1>
 
+<div class="posts">
+	
 
 <% @post.each do |post| %>
-
+	<p>username <%= post.username %> </p>
 	<p><%= post.title %></p>
-
-
 	<% end %>
+</div>
