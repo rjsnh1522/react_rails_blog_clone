@@ -35,4 +35,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do 
   gem 'capybara', '~> 2.15', '>= 2.15.4'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 end
